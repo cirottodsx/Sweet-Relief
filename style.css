@@ -1,0 +1,318 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*HEADER=================================== */
+.header {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 100%;
+}
+
+.header-top {
+  text-align: center;
+  padding: 5px 0px;
+  font-size: 15px;
+  background-color: #fff;
+  z-index: 999;
+}
+
+.header .warning,
+.date {
+  color: red;
+}
+
+.header-low {
+  background-color: #252525;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+
+.logo img {
+  height: 80px;
+}
+
+.header-texts {
+  display: flex;
+  gap: 40px;
+  padding: 0px 45px;
+}
+
+.header-texts div {
+  text-align: center;
+  color: white;
+  font-style: italic;
+}
+
+.header-texts div i {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.header-texts div p {
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+.Voted {
+  color: #a2d408;
+}
+
+.header-texts button {
+  background: linear-gradient(150deg, #ffb506, #cf9f00);
+  width: 230px;
+  line-height: 56px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #a27d01;
+  color: #000;
+  text-transform: uppercase;
+  display: block;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.header-texts button:hover {
+  background: linear-gradient(150deg, #c79114, #ffc400);
+}
+/*SECTION 2=================================== */
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 40px;
+  padding: 0px 100px 0px 100px;
+  background: linear-gradient(105deg, #fadc13, #61bc48);
+}
+
+.section-2-texts {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 450px;
+}
+
+.section-2-texts h2 {
+  line-height: 0.9em;
+  font-weight: bold;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.popular {
+  color: #083b0b;
+}
+
+.section-2-texts p {
+  font-size: 17px;
+  margin-top: 15px;
+  color: white;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.section-2-texts :last-child {
+  font-weight: bold;
+}
+
+.title-how {
+  text-align: center;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.how-to-use {
+  color: #61bc48;
+}
+
+/*SECTION 3=================================== */
+
+.section-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-3-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 840px;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.step-color {
+  color: #a2d408;
+}
+
+.step p {
+  padding-top: 10px;
+}
+/*SECTION 4=================================== */
+
+.section-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  background: linear-gradient(105deg, #ff5454, #f7a51b, #dbb432);
+}
+
+.sec4-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 530px;
+  padding: 50px;
+  color: white;
+}
+
+.sec4-text h2 {
+  font-size: 30px;
+}
+
+.CBD {
+  color: #083b0b;
+}
+
+.canabidiol {
+  font-size: 18px;
+  position: relative;
+  left: -5px;
+}
+
+.sec4-text p {
+  padding: 10px 0px;
+  text-align: left;
+  font-size: 17px;
+}
+
+.benefits {
+  font-weight: bold;
+  text-decoration: underline;
+}
+/*SECTION 5=================================== */
+
+.section-5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1aa9f8;
+  color: white;
+}
+
+.sec5-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+
+.sec5-text {
+  flex-wrap: wrap;
+  width: 300px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.garantia {
+  position: absolute;
+  z-index: 0;
+}
+
+/*SECTION 6=================================== */
+
+.section-6 {
+  margin: 20px;
+}
+
+.sec6-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 650px;
+}
+
+.sec6-container h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+  line-height: 0.9em;
+  text-align: center;
+}
+
+.sec6-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  gap: 25px;
+}
+
+.sec6-column {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.sec6-column ul {
+  list-style: none;
+  display: block;
+}
+
+.sec6-column ul li {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.highlighted {
+  background-color: #ffcf1c;
+  border-radius: 10px;
+  margin: 10px 0;
+  width: 300px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+footer p {
+  width: 900px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #61bc48;
+  padding: 5px;
+}
